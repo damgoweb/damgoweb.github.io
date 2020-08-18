@@ -43,6 +43,9 @@ li {
   font-weight: bold;
   color:red;
 }
+.text-indent1em{
+  text-indent: 1em;
+}
 .pc {
   display: block;
 }
