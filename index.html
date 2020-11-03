@@ -23,11 +23,11 @@
   <div id="wrapper">
     <nav id="gnav" class="fixed">
       <ul>
-        <li><a href="#works">WORKS</a></li>
-        <li><a href="#feature">FEATURE</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#skill">SKILL</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li class="none_style"><a href="#works">WORKS</a></li>
+        <li class="none_style"><a href="#feature">FEATURE</a></li>
+        <li class="none_style"><a href="#about">ABOUT</a></li>
+        <li class="none_style"><a href="#skill">SKILL</a></li>
+        <li class="none_style"><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
     <header id="header">
@@ -237,9 +237,9 @@
                 <hr>
                 <p><span class="text-bold">サイト概要：</span><br>
                   <ul>
-                    <li>・不動産マッチングシステム</li>
-                    <li>・管理者側画面と利用ユーザー（仲介業者）側画面<br>　<span class="text-red">（総ページ数120ページ以上）<span class="text-red"></span></li>
-                    <li>・画面作成とフロントエンドの画面制御実装を担当</li>
+                    <li>不動産マッチングシステム</li>
+                    <li>管理者側画面と利用ユーザー（仲介業者）側画面<br>　<span class="text-red">（総ページ数120ページ以上）<span class="text-red"></span></li>
+                    <li>画面作成とフロントエンドの画面制御実装を担当</li>
                   </ul>
                 </p>
                 <br>
@@ -251,20 +251,19 @@
                 <p><span class="text-bold">実装機能説明：</span></p>
                 <p><span class="text-bold">◆バリデーション</span></p>
                 <ul>
-                  <li>・jQueryプラグインを使用</li>
-                  <li>・必須項目、入力値の上限下限</li>
-                  <li><span class="text-red">・パスワードの型チェック</span></li>
+                  <li>jQueryプラグインを使用</li>
+                  <li>必須項目、入力値の上限下限</li>
+                  <li><span class="text-red">パスワードの型チェック</span></li>
                 </ul>
                 <p class="text-indent1em">パスワードの許容文字：半角英数記号</p>
                 <p class="text-indent1em">バリデーション実装の考え方：全角文字以外はＯＫ</p>
                 <br>
                 <p><span class="text-red">◆全国市町村の選択モーダル</span></p>
                 <ul>
-                  <li>・総務省「全国地方公共団体コード」使用</li>
-                  <li>・県選択モーダル　→　市町村選択モーダル</li>
-                  <li>・複数県選択　→　複数県の市町村選択モーダルを連結</li>
-                  <li>・政令市選択　→　域内の区を一括選択</li>
-                  <li></li>
+                  <li>総務省「全国地方公共団体コード」使用</li>
+                  <li>県選択モーダル　→　市町村選択モーダル</li>
+                  <li>複数県選択　→　複数県の市町村選択モーダルを連結</li>
+                  <li>政令市選択　→　域内の区を一括選択</li>
                 </ul>
               </div>
             </div>
@@ -310,39 +309,38 @@
 
 
 <hr>
-<p><span class="text-bold">【web制作のきっかけ】</span><br>
-<pre>  
-◆ユーザーサイドでの上流工程経験
-  ・市役所退職前の約20年間は主に業務システム導入・保守・運用、データ処理等の業務を担当。
-  ・システム更改（新旧システム入れ替え）に関して、ユーザーサイドとして<span class="text-red">上流工程から開発に参画。</span>し
-  　<span class="text-red">旧システムのDB構造・コード体系を分析し、移行データを作成。</span>
-
-◆VBA・GAS（Google Apps Script）でのプログラミング経験
-  ・平成9（1997）年、市営住宅管理ステムを導入後、空き家募集担当からシステム化したいと相談を受け、
+<p class="title"><span class="text-bold">【web制作のきっかけ】</span></p>
+<!-- <pre>   -->
+<p class="title"><span class="text-bold">◆ユーザーサイドでの上流工程経験</span></p>
+<p>・市役所退職前の約20年間は主に業務システム導入・保守・運用、データ処理等の業務を担当。
+<p>・システム更改（新旧システム入れ替え）に関して、ユーザーサイドとして<span class="text-red">上流工程から開発に参画。</span>
+<p>・<span class="text-red">旧システムのDB構造・コード体系を分析し、移行データを作成。</span>
+<p></p>
+<p class="title"><span class="text-bold">◆VBA・GAS（Google Apps Script）でのプログラミング経験</span></p>
+<p>・平成9（1997）年、市営住宅管理ステムを導入後、空き家募集担当からシステム化したいと相談を受け、
     データベースやVBAを<span class="text-red">独学で勉強</span>して空き家募集システムを開発し、以後基幹システムを公開するまで
-    <span class="text-red">特段の支障もなく10数年稼働し続けました。</span>
-  ・株式会社アイドマ・ホールディングスでは、当初ExcelやGoogleスプレッドシートのマクロ開発作業に従事。
+    <span class="text-red">特段の支障もなく10数年稼働し続けました。</span></p>
+<p>・株式会社アイドマ・ホールディングスでは、当初ExcelやGoogleスプレッドシートのマクロ開発作業に従事。</p>
 
-◆PHPプログラマとしてweb制作に従事
-・かねてから興味のあった<span class="text-red">web制作を独学で勉強</span>していたところ、マネジャから「自社サイトを改修するが
-  PHPプログラムが書けるか？」と打診があり、<span class="text-red">独学で勉強している旨を申告し、自社サイト改修プロジェクトに参画</span>
-・ディレクター、デザイナー、コーダーのチームにプログラマ（WordPress担当）として参加し、主にテンプレート作成
-  やプラグイン導入などを担当。
-・後にコーダーがチームから離脱したため、コーダーも兼任し、HTML作成、WordPress構築を担当。
+<p class="title"><span class="text-bold">◆PHPプログラマとしてweb制作に従事</span></p>
+<p>・かねてから興味のあった<span class="text-red">web制作を独学で勉強</span>していたところ、マネジャから「自社サイトを改修するが
+  PHPプログラムが書けるか？」と打診があり、<span class="text-red">独学で勉強している旨を申告し、自社サイト改修プロジェクトに参画</span></p>
+<p>・ディレクター、デザイナー、コーダーのチームにプログラマ（WordPress担当）として参加し、主にテンプレート作成
+  やプラグイン導入などを担当。</p>
+<p>・後にコーダーがチームから離脱したため、コーダーも兼任し、HTML作成、WordPress構築を担当。</p>
 
-<span class="text-red">以上のように、未知の言語でもすべて独学で短期間に習得し、実務に繋げてきた自走力が私の強みです。</span>
-</pre>
-</p>
+<p><span class="text-red">以上のように、未知の言語でもすべて独学で短期間に習得し、実務に繋げてきた自走力が私の強みです。</span></p>
+<!-- </pre> -->
 
 <hr>
 <p><span class="text-bold">【web制作実績】</span><br>
  <ul>
-   <li>◆2019.11～2019.12 自社LP作成（問い合わせフォーム実装）</li>
-   <li>◆2019.12～2020.01 自社サービスサイト改修</li>
-   <li><a href="#feature01">◆2020.01～2020.02 サイトリニューアルに伴い、ドメイン変更、WordPressでの新規構築</a></li>
-   <li><a href="#feature02">◆2020.01～2020.03 自社サービスの別サイト新規構築(制作中止)</a></li>
-   <li><a href="#feature03">◆2020.06～2020.07 業務委託契約にて不動産マッチングシステム作成（フロントエンド部分）</a></li>
-   <li></li>
+   <li>2019.11～2019.12 自社LP作成（問い合わせフォーム実装）</li>
+   <li>2019.12～2020.01 自社サービスサイト改修</li>
+   <li><a href="#feature01">2020.01～2020.02 サイトリニューアルに伴い、ドメイン変更、WordPressでの新規構築</a></li>
+   <li><a href="#feature02">2020.01～2020.03 自社サービスの別サイト新規構築(制作中止)</a></li>
+   <li><a href="#feature03">2020.06～2020.07 業務委託契約にて不動産マッチングシステム作成（フロントエンド部分）</a></li>
+   <li>その他サイト修正案件等</li>
  </ul> 
 </p>
               </div><!-- class="section-text-->
