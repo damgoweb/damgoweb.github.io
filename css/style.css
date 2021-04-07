@@ -310,7 +310,7 @@ li {
 
 #works .card:nth-child(3n+1):nth-last-child(-n+3),
 #works .card:nth-child(3n+1):nth-last-child(-n+3)~div {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 /*--------------------------------
