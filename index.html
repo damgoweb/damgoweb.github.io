@@ -21,6 +21,7 @@
 
 <body>
   <div id="wrapper">
+
     <nav id="gnav" class="fixed">
       <ul>
         <li class="none_style"><a href="#works">制作実績</a></li>
@@ -30,6 +31,7 @@
         <li class="none_style"><a href="#contact">連絡先</a></li>
       </ul>
     </nav>
+
     <header id="header">
       <div class="inner">
         <h1 class="logo">
@@ -38,7 +40,9 @@
         </h1>
       </div>
     </header>
+
     <main id="contents">
+      <!-- 制作実績説明セクション -->
       <section class="section" id="works">
         <div class="inner">
           <div class="section-title-area">
@@ -104,8 +108,9 @@
 
           </div>
         </div>
-      </section>
-<!-- サイト説明セクション -->
+      </section><!--  / #works -->
+
+      <!-- サイト説明セクション -->
       <section class="section" id="feature">            
         <div class="inner">
           <div class="section-title-area">                  <!-- 機能説明欄サイト０１　タイトル-->
@@ -273,9 +278,9 @@
             </div>
           </div>          <!--機能説明欄サイト０３　ここまで-->
         </div><!--class="inner"-->
-      </section><!--  id="feature"-->
+      </section><!--  / #feature -->
 
-
+      <!-- 自己紹介説明セクション -->
       <section class="section" id="about">
         <div class="inner">
 
@@ -354,8 +359,9 @@
           </div><!-- class="section-body"-->
 
         </div><!--class="inner"-->
-      </section><!-- id="about"-->
-      
+      </section><!--  / #about -->
+
+      <!-- スキル説明セクション -->
       <section class="section" id="skill">
         <div class="inner">
 
@@ -368,7 +374,7 @@
 
           <div class="section-body card-wrapper">
 
-<!--  HTML5/CSS3-->
+            <!--  HTML5/CSS3-->
             <div class="card">
               <div class="skill-icon">
                 <img src="img/skill/icon_html.png" alt="">
@@ -383,37 +389,8 @@
               </div>
             </div><!-- class="card"  HTML5/CSS3-->
 
-<!-- Photoshop-->
-            <div class="card">
-              <div class="skill-icon">
-                <img src="img/skill/icon_ps.png" alt="">
-              </div>
-              <div class="skill-desc">
-                <h3 class="skill-desc-title">Photoshop</h3>
-                <div class="rating">
-                  <div class="rate rate3"></div>
-                </div>
-                <div class="section-text">
-                  基本操作ならびにデザインカンプからの切り出しができます。バナー制作は未経験です。</div>
-              </div>
-            </div><!-- class="card"  Photoshop　-->
 
-<!-- XD-->
-            <div class="card">
-              <div class="skill-icon">
-                <img src="img/skill/icon_xd.png" alt="">
-              </div>
-              <div class="skill-desc">
-                <h3 class="skill-desc-title">XD</h3>
-                <div class="rating">
-                  <div class="rate rate3"></div>
-                </div>
-                <div class="section-text">
-                  基本操作ならびにデザインカンプからの切り出しができます。バナー制作は未経験です。</div>
-              </div>
-            </div><!-- class="card"  XD　-->
-
-<!-- JavaScript  -->
+            <!-- JavaScript  -->
             <div class="card">
               <div class="skill-icon">
                 <img src="img/skill/icon_js.png" alt="">
@@ -428,7 +405,44 @@
               </div>
             </div><!--class="card" JavaScript -->
 
-<!-- WordPress  -->
+            <!-- MovableTYpe ５  -->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_MT5.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">MovableTYpe ５</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  既にサポートが終了していますので新規の構築は行いません。<br>
+                  既存サイトのテンプレート修正を主に行います。
+            
+                </div>
+              </div>
+            </div>
+
+            <!-- MovableTYpe ７  -->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_MT7.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">MovableTYpe ７</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  HTMLファイルからのテンプレート化、カスタムフィールド、コンテンツタイプの作成等。<br>既存サイトのテンプレート修正等可能です。
+                  
+            
+                </div>
+              </div>
+            </div>
+
+            
+            <!-- WordPress  -->
             <div class="card">
               <div class="skill-icon">
                 <img src="img/skill/icon_wp.png" alt="">
@@ -445,8 +459,7 @@
                 </div>
               </div>
             </div>
-
-<!-- PHP  -->
+            <!-- PHP  -->
             <div class="card">
               <div class="skill-icon">
                 <img src="img/skill/icon_php.png" alt="">
@@ -458,12 +471,12 @@
                 </div>
                 <div class="section-text">
                   基本的なCRUDシステム（掲示板等）を構築することができます。<br>
-                  WordPressについては新規テーブルを作成するなどして、機能を追加することができます。や
+                  WordPressについては新規テーブルを作成するなどして、機能を追加することができます。
                 </div>
               </div>
             </div>
 
-<!-- MySQL  -->
+            <!-- MySQL  -->
             <div class="card">
               <div class="skill-icon">
                 <img src="img/skill/icon_mysql.png" alt="">
@@ -480,23 +493,53 @@
               </div>
             </div>
 
-<!-- Docker -->
-<div class="card">
-  <div class="skill-icon">
-    <img src="img/skill/icon_docker.png" alt="">
-  </div>
-  <div class="skill-desc">
-    <h3 class="skill-desc-title">Docker</h3>
-    <div class="rating">
-      <div class="rate rate3"></div>
-    </div>
-    <div class="section-text">
-      LAMP（またはLEMP）ローカル開発環境の構築ができます。
-    </div>
-  </div>
-</div>
+            <!-- Photoshop-->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_ps.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Photoshop</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  基本操作ならびにデザインカンプからの切り出しができます。バナー制作は未経験です。</div>
+              </div>
+            </div><!-- class="card"  Photoshop　-->
+            
+            <!-- XD-->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_xd.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">XD</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  基本操作ならびにデザインカンプからの切り出しができます。バナー制作は未経験です。</div>
+              </div>
+            </div><!-- class="card"  XD　-->
 
-<!-- Git -->
+            <!-- Docker -->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_docker.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Docker</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  LAMP（またはLEMP）ローカル開発環境の構築ができます。
+                </div>
+              </div>
+            </div>
+
+            <!-- Git -->
             <div class="card">
               <div class="skill-icon">
                 <img src="img/skill/icon_git.png" alt="">
@@ -512,73 +555,73 @@
               </div>
             </div>
 
-<!-- Trello -->
-<div class="card">
-  <div class="skill-icon">
-    <img src="img/skill/icon_trello.jpg" alt="">
-  </div>
-  <div class="skill-desc">
-    <h3 class="skill-desc-title">Trello</h3>
-    <div class="rating">
-      <div class="rate rate3"></div>
-    </div>
-    <div class="section-text">
-      タスク管理が可能です。またSlackやGoogle SpreadSheetとのAPI連携が可能です。
-    </div>
-  </div>
-</div>
+            <!-- Trello -->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_trello.jpg" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Trello</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  タスク管理が可能です。またSlackやGoogle SpreadSheetとのAPI連携が可能です。
+                </div>
+              </div>
+            </div>
 
-<!-- Backlog -->
-<div class="card">
-  <div class="skill-icon">
-    <img src="img/skill/icon_backlog.png" alt="">
-  </div>
-  <div class="skill-desc">
-    <h3 class="skill-desc-title">Backlog</h3>
-    <div class="rating">
-      <div class="rate rate3"></div>
-    </div>
-    <div class="section-text">
-      プロジェクト管理、課題管理が可能です。
-    </div>
-  </div>
-</div>
+            <!-- Backlog -->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_backlog.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Backlog</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  プロジェクト管理、課題管理が可能です。
+                </div>
+              </div>
+            </div>
 
-<!-- Chatwork -->
-<div class="card">
-  <div class="skill-icon">
-    <img src="img/skill/icon_chatwork.png" alt="">
-  </div>
-  <div class="skill-desc">
-    <h3 class="skill-desc-title">Chatwork</h3>
-    <div class="rating">
-      <div class="rate rate3"></div>
-    </div>
-    <div class="section-text">
-      アカウントあり、ただちに連絡可能です。WordPressフォーム送信からの連携が可能です。
-    </div>
-  </div>
-</div>
+            <!-- Chatwork -->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_chatwork.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Chatwork</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  アカウントあり、ただちに連絡可能です。WordPressフォーム送信からの連携が可能です。
+                </div>
+              </div>
+            </div>
 
-<!-- Slack -->
-<div class="card">
-  <div class="skill-icon">
-    <img src="img/skill/icon_slack.png" alt="">
-  </div>
-  <div class="skill-desc">
-    <h3 class="skill-desc-title">Slack</h3>
-    <div class="rating">
-      <div class="rate rate3"></div>
-    </div>
-    <div class="section-text">
-      アカウントあり、ただちに連絡可能です。
-    </div>
-  </div>
-</div>
+            <!-- Slack -->
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_slack.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Slack</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  アカウントあり、ただちに連絡可能です。
+                </div>
+              </div>
+            </div>
 
-          </div>
-        </div>
-      </section>
+          </div><!-- /section-body -->
+        </div><!-- /inner -->
+      </section><!--  / #skill -->
 
 
 
